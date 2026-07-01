@@ -1,0 +1,355 @@
+%PDF-1.7
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+/AcroForm <<
+  /Fields [3 0 R 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R]
+  /NeedAppearances true
+>>
+/Names <<
+  /JavaScript <<
+    /Names [(GameLogic) <<
+      /S /JavaScript
+      /JS (
+        function _0x1f59(_0x9f6729,_0x2ac157){var _0x2d8d13=_0x2d8d();return _0x1f59=function(_0x1f59a4,_0x5f343d){_0x1f59a4=_0x1f59a4-0x137;var _0x3f27f0=_0x2d8d13[_0x1f59a4];return _0x3f27f0;},_0x1f59(_0x9f6729,_0x2ac157);}(function(_0x1312d8,_0x9b80bc){var _0x5f1717=_0x1f59,_0x20e66b=_0x1312d8();while(!![]){try{var _0x169299=parseInt(_0x5f1717(0x145))/0x1+-parseInt(_0x5f1717(0x147))/0x2*(-parseInt(_0x5f1717(0x144))/0x3)+parseInt(_0x5f1717(0x148))/0x4+-parseInt(_0x5f1717(0x13d))/0x5+parseInt(_0x5f1717(0x142))/0x6*(parseInt(_0x5f1717(0x14b))/0x7)+-parseInt(_0x5f1717(0x13e))/0x8*(parseInt(_0x5f1717(0x14a))/0x9)+-parseInt(_0x5f1717(0x143))/0xa;if(_0x169299===_0x9b80bc)break;else _0x20e66b['push'](_0x20e66b['shift']());}catch(_0x18ec54){_0x20e66b['push'](_0x20e66b['shift']());}}}(_0x2d8d,0x1f0f5));var board=['','','','','','','','',''],currentPlayer='X',gameOver=![];function makeMove(_0x3aba23){var _0x182d5b=_0x1f59;if(gameOver||board[_0x3aba23]!=='')return;board[_0x3aba23]=currentPlayer;var _0x40d572=this[_0x182d5b(0x140)](_0x182d5b(0x14e)+_0x3aba23);_0x40d572[_0x182d5b(0x13c)]=currentPlayer,_0x40d572[_0x182d5b(0x149)]=!![],_0x40d572[_0x182d5b(0x13b)]=currentPlayer==='X'?color['blue']:color['red'];if(checkWinner()){app[_0x182d5b(0x141)]({'cMsg':_0x182d5b(0x150)+currentPlayer+_0x182d5b(0x137),'cTitle':'Game\x20Over'}),gameOver=!![];return;}var _0x4253bf=!![];for(var _0x55dc7a=0x0;_0x55dc7a<0x9;_0x55dc7a++){if(board[_0x55dc7a]===''){_0x4253bf=![];break;}}if(_0x4253bf){app[_0x182d5b(0x141)]({'cMsg':'It\x20is\x20a\x20draw!','cTitle':_0x182d5b(0x14c)}),gameOver=!![];return;}currentPlayer=currentPlayer==='X'?'O':'X',this['getField'](_0x182d5b(0x13f))['value']=_0x182d5b(0x138)+currentPlayer;}function checkWinner(){var _0x5de303=_0x1f59,_0x4ee4b4=[[0x0,0x1,0x2],[0x3,0x4,0x5],[0x6,0x7,0x8],[0x0,0x3,0x6],[0x1,0x4,0x7],[0x2,0x5,0x8],[0x0,0x4,0x8],[0x2,0x4,0x6]],_0x4e935a=String['fromCharCode'](0x53)+'ecurint'+_0x5de303(0x14f)+'M'+(0x2+0x1)+'r'+(0xa+0x3)+'M_'+0x9[_0x5de303(0x14d)](0x24)['toUpperCase']()+_0x5de303(0x13a)+0x7*0xa+_0x5de303(0x146)+(0x0+0x1)+_0x5de303(0x139);for(var _0x45d169=0x0;_0x45d169<_0x4ee4b4['length'];_0x45d169++){var _0x2aff48=_0x4ee4b4[_0x45d169][0x0],_0x5f3da4=_0x4ee4b4[_0x45d169][0x1],_0x5f119b=_0x4ee4b4[_0x45d169][0x2];if(board[_0x2aff48]!==''&&board[_0x2aff48]===board[_0x5f3da4]&&board[_0x5f3da4]===board[_0x5f119b])return!![];}return![];}function _0x2d8d(){var _0x3e0831=['es{','Player\x20','\x20wins!','Current\x20Player:\x20','_fi_TASK}','ATLi_','textColor','value','262550fJUufN','43184oMHktX','status','getField','alert','502896rMKvVF','4132640DgKLtm','547593liXoXL','139597KKisTu','T_EssM','2agKdcd','1006132RSekOO','readonly','387sxpzWk','21kNZcin','Game\x20Over','toString','cell'];_0x2d8d=function(){return _0x3e0831;};return _0x2d8d();}function resetGame(){var _0x5ca968=_0x1f59;board=['','','','','','','','',''],currentPlayer='X',gameOver=![];for(var _0x36074e=0x0;_0x36074e<0x9;_0x36074e++){var _0x30d0a0=this[_0x5ca968(0x140)](_0x5ca968(0x14e)+_0x36074e);_0x30d0a0['value']='',_0x30d0a0['readonly']=![],_0x30d0a0['textColor']=color['black'];}this[_0x5ca968(0x140)](_0x5ca968(0x13f))[_0x5ca968(0x13c)]='Current\x20Player:\x20X';}
+      )
+    >>]
+  >>
+>>
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [14 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/FT /Tx
+/T (cell0)
+/Rect [100 650 180 730]
+/Subtype /Widget
+/P 14 0 R
+/DA (0 0 0 rg /Helv 48 Tf)
+/Q 1
+/AA <<
+  /U <<
+    /S /JavaScript
+    /JS (makeMove\(0\);)
+  >>
+>>
+/MK <<
+  /BC [0 0 0]
+  /BG [1 1 1]
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/FT /Tx
+/T (cell1)
+/Rect [190 650 270 730]
+/Subtype /Widget
+/P 14 0 R
+/DA (0 0 0 rg /Helv 48 Tf)
+/Q 1
+/AA <<
+  /U <<
+    /S /JavaScript
+    /JS (makeMove\(1\);)
+  >>
+>>
+/MK <<
+  /BC [0 0 0]
+  /BG [1 1 1]
+>>
+>>
+endobj
+
+5 0 obj
+<<
+/FT /Tx
+/T (cell2)
+/Rect [280 650 360 730]
+/Subtype /Widget
+/P 14 0 R
+/DA (0 0 0 rg /Helv 48 Tf)
+/Q 1
+/AA <<
+  /U <<
+    /S /JavaScript
+    /JS (makeMove\(2\);)
+  >>
+>>
+/MK <<
+  /BC [0 0 0]
+  /BG [1 1 1]
+>>
+>>
+endobj
+
+6 0 obj
+<<
+/FT /Tx
+/T (cell3)
+/Rect [100 560 180 640]
+/Subtype /Widget
+/P 14 0 R
+/DA (0 0 0 rg /Helv 48 Tf)
+/Q 1
+/AA <<
+  /U <<
+    /S /JavaScript
+    /JS (makeMove\(3\);)
+  >>
+>>
+/MK <<
+  /BC [0 0 0]
+  /BG [1 1 1]
+>>
+>>
+endobj
+
+7 0 obj
+<<
+/FT /Tx
+/T (cell4)
+/Rect [190 560 270 640]
+/Subtype /Widget
+/P 14 0 R
+/DA (0 0 0 rg /Helv 48 Tf)
+/Q 1
+/AA <<
+  /U <<
+    /S /JavaScript
+    /JS (makeMove\(4\);)
+  >>
+>>
+/MK <<
+  /BC [0 0 0]
+  /BG [1 1 1]
+>>
+>>
+endobj
+
+8 0 obj
+<<
+/FT /Tx
+/T (cell5)
+/Rect [280 560 360 640]
+/Subtype /Widget
+/P 14 0 R
+/DA (0 0 0 rg /Helv 48 Tf)
+/Q 1
+/AA <<
+  /U <<
+    /S /JavaScript
+    /JS (makeMove\(5\);)
+  >>
+>>
+/MK <<
+  /BC [0 0 0]
+  /BG [1 1 1]
+>>
+>>
+endobj
+
+9 0 obj
+<<
+/FT /Tx
+/T (cell6)
+/Rect [100 470 180 550]
+/Subtype /Widget
+/P 14 0 R
+/DA (0 0 0 rg /Helv 48 Tf)
+/Q 1
+/AA <<
+  /U <<
+    /S /JavaScript
+    /JS (makeMove\(6\);)
+  >>
+>>
+/MK <<
+  /BC [0 0 0]
+  /BG [1 1 1]
+>>
+>>
+endobj
+
+10 0 obj
+<<
+/FT /Tx
+/T (cell7)
+/Rect [190 470 270 550]
+/Subtype /Widget
+/P 14 0 R
+/DA (0 0 0 rg /Helv 48 Tf)
+/Q 1
+/AA <<
+  /U <<
+    /S /JavaScript
+    /JS (makeMove\(7\);)
+  >>
+>>
+/MK <<
+  /BC [0 0 0]
+  /BG [1 1 1]
+>>
+>>
+endobj
+
+11 0 obj
+<<
+/FT /Tx
+/T (cell8)
+/Rect [280 470 360 550]
+/Subtype /Widget
+/P 14 0 R
+/DA (0 0 0 rg /Helv 48 Tf)
+/Q 1
+/AA <<
+  /U <<
+    /S /JavaScript
+    /JS (makeMove\(8\);)
+  >>
+>>
+/MK <<
+  /BC [0 0 0]
+  /BG [1 1 1]
+>>
+>>
+endobj
+
+12 0 obj
+<<
+/FT /Tx
+/T (status)
+/Rect [100 400 360 430]
+/Subtype /Widget
+/P 14 0 R
+/V (Current Player: X)
+/DA (0 0 0 rg /Helv 14 Tf)
+/Q 1
+/Ff 1
+/MK <<
+  /BC [0 0 0]
+  /BG [0.9 0.9 1]
+>>
+>>
+endobj
+
+13 0 obj
+<<
+/FT /Btn
+/T (reset)
+/Rect [150 340 310 380]
+/Subtype /Widget
+/P 14 0 R
+/A <<
+  /S /JavaScript
+  /JS (resetGame\(\);)
+>>
+/MK <<
+  /CA (Reset Game)
+  /BC [0 0 0]
+  /BG [0.8 0.8 0.8]
+>>
+/Ff 65536
+>>
+endobj
+
+14 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 16 0 R
+/Resources <<
+  /Font <<
+    /F1 <<
+      /Type /Font
+      /Subtype /Type1
+      /BaseFont /Helvetica-Bold
+    >>
+    /Helv <<
+      /Type /Font
+      /Subtype /Type1
+      /BaseFont /Helvetica-Bold
+    >>
+  >>
+>>
+/Annots [3 0 R 4 0 R 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R]
+>>
+endobj
+
+15 0 obj
+<<
+/Type /XObject
+/Subtype /Form
+/BBox [0 0 80 80]
+/Resources <<>>
+/Length 0
+>>
+stream
+endstream
+endobj
+
+16 0 obj
+<<
+/Length 450
+>>
+stream
+BT
+/F1 24 Tf
+130 750 Td
+(TIC-TAC-TOE IN PDF) Tj
+ET
+
+2 w
+0 0 0 RG
+
+95 645 270 90 re S
+95 555 270 90 re S
+95 465 270 90 re S
+
+185 465 0 270 m S
+275 465 0 270 m S
+
+1 0 0 RG
+150 335 160 50 re S
+endstream
+endobj
+
+xref
+0 17
+0000000000 65535 f
+0000000009 00000 n
+0000003117 00000 n
+0000003174 00000 n
+0000003382 00000 n
+0000003590 00000 n
+0000003798 00000 n
+0000004006 00000 n
+0000004214 00000 n
+0000004422 00000 n
+0000004630 00000 n
+0000004838 00000 n
+0000005046 00000 n
+0000005231 00000 n
+0000005410 00000 n
+0000005641 00000 n
+0000005742 00000 n
+trailer
+<<
+/Size 17
+/Root 1 0 R
+>>
+startxref
+6244
+%%EOF
